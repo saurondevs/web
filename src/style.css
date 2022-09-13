@@ -1,0 +1,34 @@
+/* @font-face {
+    font-family: 'VTCGoblinHand';
+    src: local('VTCGoblinHand'),
+         url('./fonts/vtc_goblin_hand/VTCGoblinHand.ttf') format('ttf'),
+}
+
+@font-face {
+    font-family: 'demonkiller';
+    src: local('demonkiller'),
+         url('./fonts/demon_killer/demonkiller.ttf') format('ttf'),
+} */
+
+@font-face {
+    font-family: 'halfelven';
+    src: local('halfelven'),
+         url('./fonts/half_elven/halfelven.ttf') format('ttf'),
+}
+
+@font-face {
+    font-family: 'halfelven3d';
+    src: local('halfelven3d'),
+         url('./fonts/half_elven/halfelven3d.ttf') format('ttf'),
+}
+
+@font-face {
+    font-family: 'LORD OF THE RING';
+    src: local('LORD OF THE RING'),
+         url('./fonts/lord_of_the_ring/LORD\ OF\ THE\ RING.otf') format('otf'),
+}
+
+* {
+    @import url("./fonts/vtc_goblin_hand/VTCGoblinHand.ttf");
+    font-family: 'Source Sans Pro';
+}
