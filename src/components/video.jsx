@@ -14,7 +14,7 @@
 // import splash from '../assets/sauron.gif'
 import { Box, Image } from '@chakra-ui/react'
 
-const url = 'https://e1.pcloud.link/publink/show?code=XZYLA4Z7Gk4PIX45ALeJNyDwp6mOmsMK1Xk'
+const url = 'https://sauronbucket.s3.amazonaws.com/sauron.gif'
 
 export const Video = () => (
   <Box position={'absolute'} zIndex={-1} height={'100vh'} width={'100vw'}>
