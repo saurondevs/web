@@ -14,8 +14,10 @@
 // import splash from '../assets/sauron.gif'
 import { Box, Image } from '@chakra-ui/react'
 
+const url = 'https://e1.pcloud.link/publink/show?code=XZYLA4Z7Gk4PIX45ALeJNyDwp6mOmsMK1Xk'
+
 export const Video = () => (
   <Box position={'absolute'} zIndex={-1} height={'100vh'} width={'100vw'}>
-    <Image src={splash} boxSize={'100%'} objectFit='cover'/>
+    <Image src={url} boxSize={'100%'} objectFit='cover'/>
   </Box>
 )
